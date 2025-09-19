@@ -120,7 +120,7 @@ export default function Home() {
               🚩 RedFlagChecker.app
             </h1>
             <p className="text-xl text-gray-600">
-              Don't work with nightmare clients. Check first.
+              Don&apos;t work with nightmare clients. Check first.
             </p>
           </div>
         </div>
@@ -207,7 +207,7 @@ export default function Home() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full h-40 p-4 border border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-red-500 focus:border-red-500"
-            placeholder="Hi, I need a logo designed. I have a very small budget but this could lead to more work. I need it ASAP and I'll know what I like when I see it..."
+            placeholder="Hi, I need a logo designed. I have a very small budget but this could lead to more work. I need it ASAP and I&apos;ll know what I like when I see it..."
           />
           
           <div className="flex justify-center mt-6">
@@ -258,7 +258,7 @@ export default function Home() {
                   
                   <div className="text-center mt-4 pt-4 border-t border-gray-200">
   <p className="text-sm text-gray-600 mb-3">
-    Don't have a code?
+    Don&apos;t have a code?
   </p>
   <a 
     href="mailto:hello@obsidian.cx?subject=Beta Access Request&body=Hi! I'd like to try RedFlagChecker.app. Could I get a beta access code?%0D%0A%0D%0AMy industry: %0D%0AExperience level: %0D%0A%0D%0AThanks!"
