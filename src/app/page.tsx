@@ -120,7 +120,7 @@ export default function Home() {
               🚩 RedFlagChecker.app
             </h1>
             <p className="text-xl text-gray-600">
-              Don&apos;t work with nightmare clients. Check first.
+              {`Don't ork with nightmare clients. Check first.`}
             </p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function Home() {
                   
                   <div className="text-center mt-4 pt-4 border-t border-gray-200">
   <p className="text-sm text-gray-600 mb-3">
-    Don&apos;t have a code?
+    {`Don't have a code?`}
   </p>
   <a 
     href="mailto:hello@obsidian.cx?subject=Beta Access Request&body=Hi! I'd like to try RedFlagChecker.app. Could I get a beta access code?%0D%0A%0D%0AMy industry: %0D%0AExperience level: %0D%0A%0D%0AThanks!"
@@ -267,7 +267,7 @@ export default function Home() {
     Request Beta Access
   </a>
   <p className="text-xs text-gray-500 mt-2">
-    We'll send you a code within 24 hours
+    {`We'll send you a code within 24 hours`}
   </p>
 </div>
                 </div>
