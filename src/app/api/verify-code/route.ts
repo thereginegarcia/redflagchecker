@@ -45,10 +45,10 @@ export async function POST(request: NextRequest) {
       message: codeData.discount === 100 ? 'Free analysis unlocked!' : `${codeData.discount}% discount applied!`
     });
     
-  } catch (error) {
-    return NextResponse.json({ 
-      valid: false, 
-      message: 'Error validating code' 
-    }, { status: 500 });
-  }
+} catch (error) {
+  return NextResponse.json({ 
+    valid: false, 
+    message: `Error validating code` 
+  }, { status: 500 });
+}
 }
