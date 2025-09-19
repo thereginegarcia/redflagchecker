@@ -349,7 +349,7 @@ export default function Home() {
                       <div className="font-semibold text-gray-900">
                         {flag.type} - {flag.severity} Risk
                       </div>
-                      <div className="text-gray-600 italic">{`"`}{flag.evidence}{`"`}</div>
+                      <div className="text-gray-600 italic">"{flag.evidence}"</div>
                       <div className="text-gray-700">{flag.explanation}</div>
                     </div>
                   ))}
